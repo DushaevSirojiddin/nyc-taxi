@@ -3,6 +3,9 @@
 ## Overview
 This project develops an ETL pipeline for New York taxi ride data, using AWS Redshift, S3, and parquet files. The data is processed through multiple layers (raw, trusted, refined) and made accessible via a FastAPI backend. This solution is designed to answer specific analytical questions about taxi rides.
 
+## Diagram of Architecture
+   ![Example Image](images/architecture.png "makebuilde image")
+
 ## Technologies Used
 - **Python**: For writing the ETL scripts and API server.
 - **AWS S3**: Used for storing raw data in Parquet format.
